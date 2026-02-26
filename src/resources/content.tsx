@@ -119,148 +119,233 @@ const about: About = {
   },
   
   work: {
-  display: true,
+  display: true, // set to false to hide this section
   title: "Work Experience",
   experiences: [
     {
       company: "IIARD (International Institute of Academic Research and Development)",
       timeframe: "Jun 2024 - Oct 2025",
       role: "Database Administrator & Web Analyst",
-      link: "https://iiardjournals.org",
       achievements: [
-        <>Owned the database layer for a multi-journal publishing platform and improved data integrity.</>,
-        <>Improved discoverability by aligning metadata, internal linking, and crawl behavior at scale.</>,
-        <>Reduced query overhead using indexing, cleanup routines, and safer read patterns for heavy traffic.</>,
-        <>Maintained access controls, backups, and monitoring routines that protected editorial operations.</>,
+        <>
+          Managed and optimized the institutional database at iiardjournals.org, enforcing
+          security protocols and maintaining consistent user access.
+        </>,
+        <>
+          Executed SEO strategies and web crawler workflows to improve journal indexing and
+          discoverability across search platforms.
+        </>,
+        <>
+          Monitored database performance and query efficiency to reduce downtime and keep
+          read-heavy access stable for users.
+        </>,
       ],
-      images: [
-        {
-          src: "https://placehold.co/1600x900/png?text=IIARD+Journals+%E2%80%94+Banner",
-          alt: "IIARD Journals banner",
-          width: 16,
-          height: 9,
-        },
-      ],
+      // images: [
+      //   {
+      //     src: "/images/work/iiard/cover.jpg",
+      //     alt: "IIARD Journals platform",
+      //     width: 16,
+      //     height: 9,
+      //   },
+      // ],
     },
 
     {
       company: "Ignatius Ajuru University of Education (Faculty of Education)",
       timeframe: "Aug 2024 - Feb 2025",
       role: "Database Administrator",
-      link: "https://foeiaue.ng",
       achievements: [
-        <>Standardized faculty records by enforcing consistent schemas and predictable update workflows.</>,
-        <>Reduced record inconsistencies through structured validation rules and clearer data entry processes.</>,
-        <>Improved maintainability by keeping backend changes simple, documented, and easy to hand over.</>,
+        <>
+          Led the management and optimization of the faculty database, prioritizing data integrity
+          and schema consistency across records.
+        </>,
+        <>
+          Streamlined data entry processes and reduced inconsistencies by enforcing structured
+          validation and cleaner record handling.
+        </>,
+        <>
+          Supported backend stability and maintainability through CMS customization with minimal
+          plugin dependency.
+        </>,
       ],
-      images: [
-        {
-          src: "https://placehold.co/1600x900/png?text=IAUE+Faculty+%E2%80%94+Banner",
-          alt: "IAUE Faculty banner",
-          width: 16,
-          height: 9,
-        },
-      ],
+      // images: [
+      //   {
+      //     src: "/images/work/iaue/cover.jpg",
+      //     alt: "IAUE Faculty of Education website",
+      //     width: 16,
+      //     height: 9,
+      //   },
+      // ],
     },
 
     {
       company: "Wallfashion House",
       timeframe: "Jun 2024 - Mar 2025",
       role: "E-Commerce Database Specialist",
-      link: "https://placehold.co",
       achievements: [
-        <>Maintained accurate inventory and product data to keep storefront listings consistent daily.</>,
-        <>Improved operational visibility by organizing product movement data into usable reporting views.</>,
-        <>Supported decision-making by tracking sales patterns and highlighting availability risks early.</>,
+        <>
+          Managed the inventory database and maintained accurate product listings for the digital storefront.
+        </>,
+        <>
+          Analyzed sales and product movement patterns to support restocking decisions and operational updates.
+        </>,
+        <>
+          Improved data consistency between backend records and storefront pages to reduce listing mismatches.
+        </>,
       ],
-      images: [
-        {
-          src: "https://placehold.co/1600x900/png?text=E-Commerce+Data+%E2%80%94+Banner",
-          alt: "E-commerce database banner",
-          width: 16,
-          height: 9,
-        },
-      ],
+      // images: [
+      //   {
+      //     src: "/images/work/wallfashion/cover.jpg",
+      //     alt: "Wallfashion House e-commerce database",
+      //     width: 16,
+      //     height: 9,
+      //   },
+      // ],
     },
 
     {
       company: "Yiwuke Limited",
       timeframe: "Jun 2024",
       role: "Data Warehouse Specialist",
-      link: "https://yiwukelimited.com.ng",
       achievements: [
-        <>Designed a warehouse-style structure that unified catalog, stock, and transaction records.</>,
-        <>Improved access to operational data through secure web-based interfaces for internal users.</>,
-        <>Delivered a maintainable backend foundation that supported growth and reporting needs.</>,
+        <>
+          Developed a data warehousing system to support transaction cataloging and stock item
+          management with reliable data flow.
+        </>,
+        <>
+          Integrated backend data flow and business utilities into a unified operational ecosystem,
+          improving access to cataloged records.
+        </>,
+        <>
+          Engineered secure, web-based access for operational users, balancing usability with
+          controlled access.
+        </>,
       ],
-      images: [
-        {
-          src: "https://placehold.co/1600x900/png?text=Yiwuke+Warehouse+%E2%80%94+Banner",
-          alt: "Yiwuke banner",
-          width: 16,
-          height: 9,
-        },
-      ],
+      // images: [
+      //   {
+      //     src: "/images/work/yiwuke/cover.jpg",
+      //     alt: "Yiwuke corporate & data warehousing platform",
+      //     width: 16,
+      //     height: 9,
+      //   },
+      // ],
     },
 
     {
       company: "Code Quest (Federal University of Technology, Owerri)",
       timeframe: "Apr 2024 - May 2024",
       role: "Technical Team Lead",
-      link: "https://placehold.co",
       achievements: [
-        <>Led technical delivery for a large event by coordinating tasks, timelines, and execution.</>,
-        <>Improved delivery consistency by assigning ownership areas and tracking completion status.</>,
-        <>Reduced last-minute risk by providing clear updates and structured support to stakeholders.</>,
+        <>
+          Led a team of technicians and developers to deliver a large-scale tech event with reliable execution.
+        </>,
+        <>
+          Managed timelines, delegated responsibilities, and coordinated stakeholder communication for smooth delivery.
+        </>,
+        <>
+          Supported team productivity by tracking progress, removing blockers, and aligning technical priorities daily.
+        </>,
       ],
-      images: [
-        {
-          src: "https://placehold.co/1600x900/png?text=Code+Quest+%E2%80%94+Banner",
-          alt: "Code Quest banner",
-          width: 16,
-          height: 9,
-        },
-      ],
+      // images: [
+      //   {
+      //     src: "/images/work/codequest/cover.jpg",
+      //     alt: "Code Quest event delivery",
+      //     width: 16,
+      //     height: 9,
+      //   },
+      // ],
     },
 
     {
       company: "Scoop Inc (Remote)",
       timeframe: "Sep 2023 - Apr 2024",
       role: "Lead Web Developer",
-      link: "https://placehold.co",
       achievements: [
-        <>Shipped a student-focused platform and owned delivery decisions from build to deployment.</>,
-        <>Improved stability by simplifying dependencies and enforcing clean backend boundaries.</>,
-        <>Coordinated remote delivery using milestones and review-friendly implementation changes.</>,
+        <>
+          Designed and developed a web application that connected students globally and enabled
+          seamless information dissemination.
+        </>,
+        <>
+          Owned the technical roadmap and guided deployment decisions to keep the platform
+          stable and scalable.
+        </>,
       ],
-      images: [
-        {
-          src: "https://placehold.co/1600x900/png?text=Scoop+Platform+%E2%80%94+Banner",
-          alt: "Scoop Inc banner",
-          width: 16,
-          height: 9,
-        },
+      // images: [],
+    },
+
+    {
+      company: "Homer.com (Remote)",
+      timeframe: "May 2022 - Feb 2023",
+      role: "Web Developer & Technical Writer",
+      achievements: [
+        <>
+          Produced technical content and maintained web updates that improved clarity and user experience.
+        </>,
+        <>
+          Collaborated with remote teams to keep platform functionality stable during continuous improvements.
+        </>,
+        <>
+          Strengthened documentation quality to support smoother handovers and faster team onboarding.
+        </>,
       ],
+      // images: [
+      //   {
+      //     src: "/images/work/homer/cover.jpg",
+      //     alt: "Homer.com website updates and technical writing",
+      //     width: 16,
+      //     height: 9,
+      //   },
+      // ],
     },
 
     {
       company: "BitDegree (Remote)",
       timeframe: "Apr 2019 - May 2021",
       role: "Data Analyst",
-      link: "https://www.bitdegree.org",
       achievements: [
-        <>Analyzed 4,000+ user records and delivered clear summaries for product stakeholders.</>,
-        <>Built a recommendation system that increased user engagement by approximately fifteen percent.</>,
-        <>Reduced repeat analysis work by standardizing data cleaning and preparation steps.</>,
+        <>
+          Cleaned and analyzed over 4,000 user data records using Microsoft Excel and Python for reporting.
+        </>,
+        <>
+          Developed a recommendation system that increased user engagement by approximately fifteen percent.
+        </>,
+        <>
+          Presented actionable insights to leadership that supported improvements in platform feature decisions.
+        </>,
       ],
-      images: [
-        {
-          src: "https://placehold.co/1600x900/png?text=Analytics+%E2%80%94+Banner",
-          alt: "BitDegree banner",
-          width: 16,
-          height: 9,
-        },
+      // images: [
+      //   {
+      //     src: "/images/work/bitdegree/cover.jpg",
+      //     alt: "BitDegree analytics work",
+      //     width: 16,
+      //     height: 9,
+      //   },
+      // ],
+    },
+
+    {
+      company: "Ephaphatha (Seasonal)",
+      timeframe: "2019 - May 2022",
+      role: "Computer Science Tutor",
+      achievements: [
+        <>
+          Taught core computer science concepts and guided students through practical programming exercises.
+        </>,
+        <>
+          Simplified difficult topics into clear steps that improved student understanding and confidence.
+        </>,
+        <>
+          Supported learners with structured feedback and regular practice sessions to strengthen fundamentals.
+        </>,
       ],
+      // images: [
+      //   {
+      //     src: "/images/work/teaching/cover.jpg",
+      //     alt: "Computer science tutoring",
+      //     width: 16,
+      //     height: 9,
+      //   },
+      // ],
     },
   ],
 },
