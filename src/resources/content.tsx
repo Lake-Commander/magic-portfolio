@@ -117,6 +117,7 @@ const about: About = {
       </>
     ),
   },
+  
   work: {
   display: true,
   title: "Work Experience",
@@ -125,28 +126,19 @@ const about: About = {
       company: "IIARD (International Institute of Academic Research and Development)",
       timeframe: "Jun 2024 - Oct 2025",
       role: "Database Administrator & Web Analyst",
+      link: "https://iiardjournals.org",
       achievements: [
-        <>
-          Owned the database layer for a multi-journal publishing platform, improving data integrity and operational reliability.
-        </>,
-        <>
-          Improved content discoverability by aligning metadata, internal linking, and crawl behavior across high-volume journal pages.
-        </>,
-        <>
-          Reduced query overhead through indexing, cleanup routines, and safer access patterns for read-heavy traffic.
-        </>,
-        <>
-          Maintained access control, backups, and monitoring routines to protect research records and editorial workflows.
-        </>,
+        <>Owned the database layer for a multi-journal publishing platform and improved data integrity.</>,
+        <>Improved discoverability by aligning metadata, internal linking, and crawl behavior at scale.</>,
+        <>Reduced query overhead using indexing, cleanup routines, and safer read patterns for heavy traffic.</>,
+        <>Maintained access controls, backups, and monitoring routines that protected editorial operations.</>,
       ],
       images: [
         {
-          // Clickable banner placeholder
           src: "https://placehold.co/1600x900/png?text=IIARD+Journals+%E2%80%94+Banner",
-          alt: "IIARD Journals platform banner",
+          alt: "IIARD Journals banner",
           width: 16,
           height: 9,
-          href: "https://iiardjournals.org",
         },
       ],
     },
@@ -155,24 +147,18 @@ const about: About = {
       company: "Ignatius Ajuru University of Education (Faculty of Education)",
       timeframe: "Aug 2024 - Feb 2025",
       role: "Database Administrator",
+      link: "https://foeiaue.ng",
       achievements: [
-        <>
-          Stabilized faculty records by enforcing consistent schemas, cleaner constraints, and repeatable update workflows.
-        </>,
-        <>
-          Reduced data inconsistencies by strengthening validation rules and improving record-handling procedures for staff.
-        </>,
-        <>
-          Supported platform maintainability by keeping backend changes minimal, predictable, and easy to document.
-        </>,
+        <>Standardized faculty records by enforcing consistent schemas and predictable update workflows.</>,
+        <>Reduced record inconsistencies through structured validation rules and clearer data entry processes.</>,
+        <>Improved maintainability by keeping backend changes simple, documented, and easy to hand over.</>,
       ],
       images: [
         {
-          src: "https://placehold.co/1600x900/png?text=IAUE+Faculty+Website+%E2%80%94+Banner",
-          alt: "IAUE Faculty of Education website banner",
+          src: "https://placehold.co/1600x900/png?text=IAUE+Faculty+%E2%80%94+Banner",
+          alt: "IAUE Faculty banner",
           width: 16,
           height: 9,
-          href: "https://foeiaue.ng",
         },
       ],
     },
@@ -181,24 +167,18 @@ const about: About = {
       company: "Wallfashion House",
       timeframe: "Jun 2024 - Mar 2025",
       role: "E-Commerce Database Specialist",
+      link: "https://placehold.co",
       achievements: [
-        <>
-          Maintained accurate inventory and product data to keep storefront listings consistent with backend records.
-        </>,
-        <>
-          Supported sales operations by tracking product movement and identifying mismatches affecting availability and updates.
-        </>,
-        <>
-          Improved reporting clarity by structuring product and transaction data for faster operational decisions.
-        </>,
+        <>Maintained accurate inventory and product data to keep storefront listings consistent daily.</>,
+        <>Improved operational visibility by organizing product movement data into usable reporting views.</>,
+        <>Supported decision-making by tracking sales patterns and highlighting availability risks early.</>,
       ],
       images: [
         {
-          src: "https://placehold.co/1600x900/png?text=E-Commerce+Inventory+System+%E2%80%94+Banner",
+          src: "https://placehold.co/1600x900/png?text=E-Commerce+Data+%E2%80%94+Banner",
           alt: "E-commerce database banner",
           width: 16,
           height: 9,
-          href: "https://placehold.co", // replace with real store link if public
         },
       ],
     },
@@ -207,24 +187,18 @@ const about: About = {
       company: "Yiwuke Limited",
       timeframe: "Jun 2024",
       role: "Data Warehouse Specialist",
+      link: "https://yiwukelimited.com.ng",
       achievements: [
-        <>
-          Designed a warehouse-style data structure that unified catalog, stock, and transaction records into one system.
-        </>,
-        <>
-          Connected operational workflows to secure web access, improving visibility for internal users without exposing sensitive data.
-        </>,
-        <>
-          Delivered a maintainable backend foundation that supported growth, reporting needs, and controlled access patterns.
-        </>,
+        <>Designed a warehouse-style structure that unified catalog, stock, and transaction records.</>,
+        <>Improved access to operational data through secure web-based interfaces for internal users.</>,
+        <>Delivered a maintainable backend foundation that supported growth and reporting needs.</>,
       ],
       images: [
         {
-          src: "https://placehold.co/1600x900/png?text=Yiwuke+Data+Warehouse+%E2%80%94+Banner",
-          alt: "Yiwuke corporate and data warehousing platform banner",
+          src: "https://placehold.co/1600x900/png?text=Yiwuke+Warehouse+%E2%80%94+Banner",
+          alt: "Yiwuke banner",
           width: 16,
           height: 9,
-          href: "https://yiwukelimited.com.ng",
         },
       ],
     },
@@ -233,24 +207,18 @@ const about: About = {
       company: "Code Quest (Federal University of Technology, Owerri)",
       timeframe: "Apr 2024 - May 2024",
       role: "Technical Team Lead",
+      link: "https://placehold.co",
       achievements: [
-        <>
-          Led a technical team to deliver a large-scale event while coordinating tasks, timelines, and technical execution.
-        </>,
-        <>
-          Improved delivery consistency by assigning clear ownership areas and tracking completion across multiple contributors.
-        </>,
-        <>
-          Supported stakeholders with structured updates, reducing last-minute risk during event execution.
-        </>,
+        <>Led technical delivery for a large event by coordinating tasks, timelines, and execution.</>,
+        <>Improved delivery consistency by assigning ownership areas and tracking completion status.</>,
+        <>Reduced last-minute risk by providing clear updates and structured support to stakeholders.</>,
       ],
       images: [
         {
-          src: "https://placehold.co/1600x900/png?text=Code+Quest+%E2%80%94+Technical+Leadership+Banner",
-          alt: "Code Quest technical leadership banner",
+          src: "https://placehold.co/1600x900/png?text=Code+Quest+%E2%80%94+Banner",
+          alt: "Code Quest banner",
           width: 16,
           height: 9,
-          href: "https://placehold.co", // replace with event page if available
         },
       ],
     },
@@ -259,24 +227,18 @@ const about: About = {
       company: "Scoop Inc (Remote)",
       timeframe: "Sep 2023 - Apr 2024",
       role: "Lead Web Developer",
+      link: "https://placehold.co",
       achievements: [
-        <>
-          Shipped a student-focused web platform and owned the core build decisions from early structure to deployment.
-        </>,
-        <>
-          Improved stability by defining practical backend boundaries and reducing fragile dependencies during development.
-        </>,
-        <>
-          Coordinated delivery with remote collaborators using clear milestones and review-friendly implementation changes.
-        </>,
+        <>Shipped a student-focused platform and owned delivery decisions from build to deployment.</>,
+        <>Improved stability by simplifying dependencies and enforcing clean backend boundaries.</>,
+        <>Coordinated remote delivery using milestones and review-friendly implementation changes.</>,
       ],
       images: [
         {
-          src: "https://placehold.co/1600x900/png?text=Scoop+Inc+%E2%80%94+Platform+Banner",
-          alt: "Scoop Inc platform banner",
+          src: "https://placehold.co/1600x900/png?text=Scoop+Platform+%E2%80%94+Banner",
+          alt: "Scoop Inc banner",
           width: 16,
           height: 9,
-          href: "https://placehold.co", // replace with real product link if public
         },
       ],
     },
@@ -285,24 +247,18 @@ const about: About = {
       company: "BitDegree (Remote)",
       timeframe: "Apr 2019 - May 2021",
       role: "Data Analyst",
+      link: "https://www.bitdegree.org",
       achievements: [
-        <>
-          Cleaned and analyzed 4,000+ user records and produced decision-ready summaries for product stakeholders.
-        </>,
-        <>
-          Built a simple recommendation system that increased user engagement by approximately fifteen percent.
-        </>,
-        <>
-          Improved reporting speed by standardizing data preparation steps and reducing repeated manual analysis work.
-        </>,
+        <>Analyzed 4,000+ user records and delivered clear summaries for product stakeholders.</>,
+        <>Built a recommendation system that increased user engagement by approximately fifteen percent.</>,
+        <>Reduced repeat analysis work by standardizing data cleaning and preparation steps.</>,
       ],
       images: [
         {
-          src: "https://placehold.co/1600x900/png?text=BitDegree+%E2%80%94+Analytics+Banner",
-          alt: "BitDegree analytics banner",
+          src: "https://placehold.co/1600x900/png?text=Analytics+%E2%80%94+Banner",
+          alt: "BitDegree banner",
           width: 16,
           height: 9,
-          href: "https://www.bitdegree.org",
         },
       ],
     },
