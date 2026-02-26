@@ -118,7 +118,7 @@ const about: About = {
     ),
   },
   work: {
-  display: true, // set to false to hide this section
+  display: true,
   title: "Work Experience",
   experiences: [
     {
@@ -127,24 +127,26 @@ const about: About = {
       role: "Database Administrator & Web Analyst",
       achievements: [
         <>
-          Managed and optimized the institutional database at iiardjournals.org, enforcing
-          security protocols and maintaining consistent user access.
+          Owned the database layer for a multi-journal publishing platform, improving data integrity and operational reliability.
         </>,
         <>
-          Executed SEO strategies and web crawler workflows to improve journal indexing and
-          discoverability across search platforms.
+          Improved content discoverability by aligning metadata, internal linking, and crawl behavior across high-volume journal pages.
         </>,
         <>
-          Monitored database performance and query efficiency to reduce downtime and keep
-          read-heavy access stable for users.
+          Reduced query overhead through indexing, cleanup routines, and safer access patterns for read-heavy traffic.
+        </>,
+        <>
+          Maintained access control, backups, and monitoring routines to protect research records and editorial workflows.
         </>,
       ],
       images: [
         {
-          src: "/images/work/iiard/cover.jpg",
-          alt: "IIARD Journals platform",
+          // Clickable banner placeholder
+          src: "https://placehold.co/1600x900/png?text=IIARD+Journals+%E2%80%94+Banner",
+          alt: "IIARD Journals platform banner",
           width: 16,
           height: 9,
+          href: "https://iiardjournals.org",
         },
       ],
     },
@@ -155,24 +157,48 @@ const about: About = {
       role: "Database Administrator",
       achievements: [
         <>
-          Led the management and optimization of the faculty database, prioritizing data integrity
-          and schema consistency across records.
+          Stabilized faculty records by enforcing consistent schemas, cleaner constraints, and repeatable update workflows.
         </>,
         <>
-          Streamlined data entry processes and reduced inconsistencies by enforcing structured
-          validation and cleaner record handling.
+          Reduced data inconsistencies by strengthening validation rules and improving record-handling procedures for staff.
         </>,
         <>
-          Supported backend stability and maintainability through CMS customization with minimal
-          plugin dependency.
+          Supported platform maintainability by keeping backend changes minimal, predictable, and easy to document.
         </>,
       ],
       images: [
         {
-          src: "/images/work/iaue/cover.jpg",
-          alt: "IAUE Faculty of Education website",
+          src: "https://placehold.co/1600x900/png?text=IAUE+Faculty+Website+%E2%80%94+Banner",
+          alt: "IAUE Faculty of Education website banner",
           width: 16,
           height: 9,
+          href: "https://foeiaue.ng",
+        },
+      ],
+    },
+
+    {
+      company: "Wallfashion House",
+      timeframe: "Jun 2024 - Mar 2025",
+      role: "E-Commerce Database Specialist",
+      achievements: [
+        <>
+          Maintained accurate inventory and product data to keep storefront listings consistent with backend records.
+        </>,
+        <>
+          Supported sales operations by tracking product movement and identifying mismatches affecting availability and updates.
+        </>,
+        <>
+          Improved reporting clarity by structuring product and transaction data for faster operational decisions.
+        </>,
+      ],
+      images: [
+        {
+          src: "https://placehold.co/1600x900/png?text=E-Commerce+Inventory+System+%E2%80%94+Banner",
+          alt: "E-commerce database banner",
+          width: 16,
+          height: 9,
+          href: "https://placehold.co", // replace with real store link if public
         },
       ],
     },
@@ -183,24 +209,48 @@ const about: About = {
       role: "Data Warehouse Specialist",
       achievements: [
         <>
-          Developed a data warehousing system to support transaction cataloging and stock item
-          management with reliable data flow.
+          Designed a warehouse-style data structure that unified catalog, stock, and transaction records into one system.
         </>,
         <>
-          Integrated backend data flow and business utilities into a unified operational ecosystem,
-          improving access to cataloged records.
+          Connected operational workflows to secure web access, improving visibility for internal users without exposing sensitive data.
         </>,
         <>
-          Engineered secure, web-based access for operational users, balancing usability with
-          controlled access.
+          Delivered a maintainable backend foundation that supported growth, reporting needs, and controlled access patterns.
         </>,
       ],
       images: [
         {
-          src: "/images/work/yiwuke/cover.jpg",
-          alt: "Yiwuke corporate & data warehousing platform",
+          src: "https://placehold.co/1600x900/png?text=Yiwuke+Data+Warehouse+%E2%80%94+Banner",
+          alt: "Yiwuke corporate and data warehousing platform banner",
           width: 16,
           height: 9,
+          href: "https://yiwukelimited.com.ng",
+        },
+      ],
+    },
+
+    {
+      company: "Code Quest (Federal University of Technology, Owerri)",
+      timeframe: "Apr 2024 - May 2024",
+      role: "Technical Team Lead",
+      achievements: [
+        <>
+          Led a technical team to deliver a large-scale event while coordinating tasks, timelines, and technical execution.
+        </>,
+        <>
+          Improved delivery consistency by assigning clear ownership areas and tracking completion across multiple contributors.
+        </>,
+        <>
+          Supported stakeholders with structured updates, reducing last-minute risk during event execution.
+        </>,
+      ],
+      images: [
+        {
+          src: "https://placehold.co/1600x900/png?text=Code+Quest+%E2%80%94+Technical+Leadership+Banner",
+          alt: "Code Quest technical leadership banner",
+          width: 16,
+          height: 9,
+          href: "https://placehold.co", // replace with event page if available
         },
       ],
     },
@@ -211,19 +261,54 @@ const about: About = {
       role: "Lead Web Developer",
       achievements: [
         <>
-          Designed and developed a web application that connected students globally and enabled
-          seamless information dissemination.
+          Shipped a student-focused web platform and owned the core build decisions from early structure to deployment.
         </>,
         <>
-          Owned the technical roadmap and guided deployment decisions to keep the platform
-          stable and scalable.
+          Improved stability by defining practical backend boundaries and reducing fragile dependencies during development.
+        </>,
+        <>
+          Coordinated delivery with remote collaborators using clear milestones and review-friendly implementation changes.
         </>,
       ],
-      images: [],
+      images: [
+        {
+          src: "https://placehold.co/1600x900/png?text=Scoop+Inc+%E2%80%94+Platform+Banner",
+          alt: "Scoop Inc platform banner",
+          width: 16,
+          height: 9,
+          href: "https://placehold.co", // replace with real product link if public
+        },
+      ],
+    },
+
+    {
+      company: "BitDegree (Remote)",
+      timeframe: "Apr 2019 - May 2021",
+      role: "Data Analyst",
+      achievements: [
+        <>
+          Cleaned and analyzed 4,000+ user records and produced decision-ready summaries for product stakeholders.
+        </>,
+        <>
+          Built a simple recommendation system that increased user engagement by approximately fifteen percent.
+        </>,
+        <>
+          Improved reporting speed by standardizing data preparation steps and reducing repeated manual analysis work.
+        </>,
+      ],
+      images: [
+        {
+          src: "https://placehold.co/1600x900/png?text=BitDegree+%E2%80%94+Analytics+Banner",
+          alt: "BitDegree analytics banner",
+          width: 16,
+          height: 9,
+          href: "https://www.bitdegree.org",
+        },
+      ],
     },
   ],
 },
-
+  
 studies: {
   display: true, // set to false to hide this section
   title: "Studies",
