@@ -72,7 +72,7 @@ const home: Home = {
         </Text>
       </Row>
     ),
-    href: "/work/building-once-ui-a-customizable-design-system",
+    href: "/work/iiard-digital-journal-platform",
   },
   subline: (
     <>
@@ -105,7 +105,7 @@ const about: About = {
   },
   calendar: {
     display: true,
-    link: "https://cal.com",
+    link: "https://wa.me/2349034228879",
   },
   intro: {
     display: true,
@@ -385,14 +385,14 @@ technical: {
         { name: "ETL", icon: "database" },
         { name: "APIs", icon: "api" },
       ],
-      images: [
-        {
-          src: "/images/skills/backend/cover-01.jpg",
-          alt: "Backend + Data engineering",
-          width: 16,
-          height: 9,
-        },
-      ],
+    //  images: [
+      //  {
+        //  src: "/images/skills/backend/cover-01.jpg",
+        //  alt: "Backend + Data engineering",
+        //  width: 16,
+      //    height: 9,
+      //  },
+   //   ],
     },
     {
       title: "Modern Web Development",
@@ -410,14 +410,14 @@ technical: {
         { name: "Django", icon: "django" },
         { name: "Laravel", icon: "laravel" },
       ],
-      images: [
-        {
-          src: "/images/skills/web/cover-01.jpg",
-          alt: "Web development",
-          width: 16,
-          height: 9,
-        },
-      ],
+   //   images: [
+     //   {
+     //     src: "/images/skills/web/cover-01.jpg",
+      //    alt: "Web development",
+       //   width: 16,
+       //   height: 9,
+     //   },
+    //  ],
     },
     {
       title: "Tooling + Deployment",
